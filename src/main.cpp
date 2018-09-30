@@ -10,6 +10,7 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <caffe/caffe.hpp>
 #include <caffe/proto/caffe.pb.h>
+#include <caffe/layers/memory_data_layer.hpp>
 #include "common.hpp"
 #include "region.hpp"
 #include "extract_model_input.hpp"

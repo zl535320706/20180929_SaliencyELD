@@ -5,8 +5,8 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
 extern "C" {
-#include <vl/generic.h>
-#include <vl/slic.h>
+#include <library/vlfeat-0.9.21/vl/generic.h>
+#include <library/vlfeat-0.9.21/vl/slic.h>
 }
 #include "extract_model_input.hpp"
 #include "gabor.hpp"

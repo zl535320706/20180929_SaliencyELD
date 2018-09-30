@@ -6,8 +6,8 @@ project( SaliencyELD )
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2 -fopenmp -std=c++11")
 
 # VLfeat library setting (NOTE: Change to your vlfeat path)
-include_directories(./library/vlfeat-0.9.20)
-link_directories(./library/vlfeat-0.9.20/bin/glnxa64)
+include_directories(./library/vlfeat-0.9.21)
+link_directories(./library/vlfeat-0.9.21/bin/glnxa64)
 
 # Caffe setting
 # symlink your caffe to this directory. (NOTE: Build Caffe with Cmake first)
